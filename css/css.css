@@ -1,0 +1,807 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Warnes');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Bilbo');
+
+
+@import url(media-queries.css);
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+{
+    margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block}
+
+body{
+    line-height:1}
+
+ol,ul{
+    list-style:none}
+
+blockquote,q{
+    quotes:none}
+
+blockquote:before,blockquote:after,q:before,q:after{
+    content:'';content:none}
+
+table{
+    border-collapse:collapse;border-spacing:0}
+
+h1,h2,h3,h4,h5,h6,p{
+    cursor: default;
+}
+/* SELECCION DE FUENTES--------------------
+
+font-family: 'Fredericka the Great', serif; (Chalk)
+font-family: 'Warnes'; ( Neon )
+font-family: 'Roboto', sans-serif; (body-copy)
+font-family: 'Bilbo', cursive;
+
+SOMBRAS PARA LUZ NEON
+	text-shadow:
+		0 0 5px rgba(152, 83, 235,1),
+		0 0 10px rgba(152, 83, 235,1),
+		0 0 20px rgba(152, 83, 235,1),
+		0 0 40px rgba(152, 83, 235,1);
+
+SELECCION DE COLORES-----------------------
+
+
+
+*/
+
+
+/*
+SUAVIZADO DE TEXTOS-------------------------
+-webkit-font-smoothing: antialiased;
+
+*/
+/*
+DESENFOCADO---------------------------------
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+*/
+
+
+html{
+    font-size: 125%;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    line-height: 1.5;
+
+}
+
+body{
+    padding-top: 80px;
+    top: 0;
+    left: 0;
+    background-color: #888;
+    background-image: url(ui-img/bg/fondo.png);
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+
+button{
+    border: none;
+    background: none;
+    position: relative;
+}
+
+ul, li {
+    margin:0;
+    padding:0;
+    text-align: right;
+}
+
+a{ 
+    display: inline-block;
+    text-decoration: none;
+    color: #222;
+    
+}
+
+
+h1{
+    font-family: 'Fredericka the Great', serif;
+    font-size: 2rem;
+    color: #000;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+input{
+    margin: 0;
+}
+
+
+ul{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;    
+
+}
+
+li{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+ul h1{
+    font-family: 'Bilbo', cursive;
+    padding-bottom: 1rem;
+}
+/*---------------------------------------------------------------*/
+
+.limite{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.mainHeader{
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    color: #eee;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 100;
+    background-color: #222;
+
+}
+
+
+.identidad{
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    box-sizing: border-box;
+    z-index: 200;
+    padding-left: 5vw;
+
+}
+
+    .identidad:hover{
+        cursor: pointer;
+    }
+
+.homeTitle{
+    font-size: 8vw;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+ 
+}
+/*-----------------MENU--------------------------------------*/
+
+.logoNav{
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    background-image: url(ui-img/logo/logo_sencillo_transparente.svg);
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat; 
+
+}
+
+
+.mainNav{
+    box-sizing: border-box;
+    width: 90%;
+	z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    transform: translateY(-100%);
+    box-shadow: 15px 15px 30px rgba(0,0,0,.5);
+
+}
+
+
+.mainNav::before, .mainNav::after{
+    content: "";
+    display: block;
+    height: 15px;
+    width: 3px;
+    border-radius: 2px;
+    border-left: 1px solid #aaa;
+    background-color: #888;
+    border-right: 2px solid #222;
+    position: absolute;
+    top: -6px;
+    z-index: 12;
+    
+}
+
+.mainNav::before{
+    left: 50px;
+}
+.mainNav::after{
+    right: 50px;
+}
+
+.mainNav ul{
+    padding: 2vw 5vw;
+    background-image: url(ui-img/bg/pizarra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 3px solid #D7BEA8;
+    border-right: 3px solid #AD9987;
+    border-bottom: 3px solid #AD9987;
+    border-left: 3px solid #D7BEA8;
+    box-shadow: inset 2px 2px 20px 1px #000;
+}
+
+.mainNav li{
+    width: 100%;
+}
+
+.mainNav a{
+    font-family: 'Fredericka the Great', serif;
+    display: block;
+    right: 0;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    font-size: 1rem;
+}
+    .mainNav a:hover{
+        opacity: 0.8;
+    }
+
+
+#menuBtn{
+    display: none;
+
+}
+
+.botonMenu{
+
+    width: 40px;
+    height: 40px;
+    border: 2px solid #eee;
+    box-sizing: border-box;
+    padding: 5px;
+    right: 5vw;
+    top: 20px;
+    z-index: 20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    position: absolute;
+    
+
+}
+    .botonMenu:hover{
+        cursor: pointer;
+    }
+
+
+.botonMenu div{
+    position: relative;
+    width: 90%;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #eee;
+    transition: all 0.2s;
+}
+    .botonMenu:hover div{
+        opacity: 0.8;
+    }
+
+
+#menuBtn:checked ~ .mainNav{
+
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    -webkit-animation-name: flipInX;
+    animation-name: flipInX;
+    top: 90px;
+
+}
+
+#menuBtn:checked ~ .botonMenu{
+    align-content: flex-start;
+    
+}
+#menuBtn:checked ~ .botonMenu div:nth-child(odd){
+    display: none;
+}
+.desplegar{
+    -webkit-transform-origin: 50% 0 0;
+    transform-origin: 50% 0 0;
+}
+
+@-webkit-keyframes flipInX {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+      40% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+      }
+
+      60% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+      }
+
+      80% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+      }
+
+  to {
+        -webkit-transform: perspective(400px) translateY(80px);
+        transform: perspective(400px);
+  }
+}
+
+
+
+/*-----------------INTRO--------------------------------------*/
+
+
+.intro{
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+
+/*
+    background-image: url(ui-img/bg/restaurante.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+*/
+    
+}
+
+.videoBg {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100vw;
+}
+
+.intro figure{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    z-index: 4;
+    background-color: rgba(255,255,255,.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}  
+
+.intro .title {
+    font-family: 'Fredericka the Great', serif;
+    font-size: 2.5rem;
+}
+
+.intro figure h1{
+    font-size: 1rem;
+    font-family: 'Warnes', sans-serif; 
+    padding: 3vw 0;
+    -webkit-font-smoothing: antialiased;
+    transition: all .2s;
+
+}
+
+.intro figcaption{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro figure img{
+    display: block;
+    height: 19%;
+    margin: 0 auto;
+}
+
+/*-----------------CONTENIDO---------------------------------*/
+
+
+
+main.contentWrap{
+
+    box-sizing: border-box;
+    overflow: hidden;  
+    width: 90%;
+    margin: 5vw;
+    position: absolute;
+    margin-top: 100vh;
+    margin-left: -45%;
+    top: 0;
+    left: 50%;  
+    padding-top: 10vw;
+
+
+}
+
+
+section{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15vw;
+    position: relative;
+    z-index: 30; 
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+section li {
+
+    padding: 3% 10%;
+}
+
+section li{
+    border-top: 1px solid #fff;
+
+}
+
+
+
+main.contentWrap section h1, section a{
+    
+    font-size: 30px;
+    line-height: 40px;
+    height: 40px;  
+    z-index: 1;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+
+}
+.mainTitle{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #222;
+    color: #eee;
+    font-size: 40px;
+    line-height: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.namesWrap{
+
+background-color: rgba(34,34,34,.7);
+
+}
+
+.namesWrap > h1{
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: 'Roboto',sans-serif;
+    padding: 5% 10%;
+}
+
+.namesWrap, .productWrap{
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.namesWrap a{
+    font-family: 'Bilbo', cursive;
+}
+
+.coffee .namesWrap > h1{
+    background-color: indianred;
+}
+.drinks .namesWrap > h1{
+    background-color: #88BC47;
+}
+.sweet .namesWrap > h1{
+    background-color: #99BEDB;
+}
+.salty .namesWrap > h1{
+    background-color: #E88B00;
+}
+
+.coffee{
+    background-image: url(../img/latte.jpg);
+
+}
+.drinks{
+    background-image: url(../img/zumo.jpg);
+}
+
+.sweet{
+    background-image: url(../img/roll.jpg);
+}
+.salty{
+    background-image: url(../img/salty-crepes.jpg);
+
+}
+
+
+/*------------PESTAÑAS PRODUCTO-------------------------------------*/
+
+.productWrap{
+    overflow: hidden;
+}
+
+.productWrap article{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: right;
+    
+}
+
+.productWrap img{
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.productWrap .info{
+    text-align: right;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 4;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2% 2% 2% 15%;
+    color: #fff;    
+    background-color: rgba(1,25,54,.6);
+}
+
+.productWrap .info h2{
+    font-size: 26px;
+    font-weight: lighter;
+    font-family: 'Bilbo', 'sans-serif';
+    line-height: 1.5;
+    margin-top: 10px;
+
+}
+
+
+.namesWrap li{
+    position: relative;
+    transition: all .5s;
+}
+.namesWrap li:hover{
+    cursor: pointer;
+    padding-left: 3vw;
+}
+ 
+.namesWrap li a:hover{
+    cursor: pointer;
+}
+.namesWrap li.current {
+	background-color: transparent ;
+	color: black ;
+	}
+
+.namesWrap li.current::after {
+	content: "" ;
+	width: 0 ;
+	height: 0 ;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid indianred;
+
+	}
+
+.coffee .namesWrap li.current::after {
+    border-left: 10px solid indianred;
+}
+
+
+.drinks .namesWrap li.current::after{
+    border-left: 10px solid #88BC47;
+}
+.sweet .namesWrap li.current::after{
+    border-left: 10px solid #99BEDB;
+}
+.salty .namesWrap li.current::after{
+    border-left: 10px solid #E88B00;
+}
+
+
+/*-----------------------CONTACTO--------------------------------------*/
+
+.contact{
+    width: 100%;    
+    height: 65vh;
+    margin-bottom: 0;
+
+}
+
+.contact li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5% 10%;
+    
+
+}
+.contentWrap .contact h1{
+    font-family: 'Fredericka the Great', serif;
+
+
+}
+.contact li:hover{
+    padding: 5% 12%;
+    cursor: pointer;
+    background: rgba(255,255,255,.2);
+}
+
+.contact li h1{
+    padding-bottom: 0;
+
+}
+.contact li h1:hover{
+    cursor: pointer;
+
+}
+.contentWrap .contact li h1{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 20px;
+}
+.contact .namesWrap{
+    height: fit-content;
+    z-index: 10;
+    background-color: #222;
+    clip-path: none;
+    width: 100%;
+
+}
+.contact .productWrap{
+    min-height: 80vh;
+    clip-path: none;
+
+}
+.iconoInfo{
+    
+    height: 30px;
+    padding: 0px 26px 0px 0px;
+}
+
+.contact iframe{
+    width: 100%;
+    height: 50%;
+
+}
+/*-----------------LAMPARA---------------------------------*/
+
+.lampara{
+    display: none;
+    width: 90px;
+    height: 80vh;
+    max-height: 500px;
+    background-image: url(ui-img/lampara.png);
+    background-size: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat; 
+    position: absolute;
+    transform-origin: top center;
+    right: 25vw;
+    top: 0;
+    -webkit-animation: movLampara 10s linear infinite ;
+    animation-fill-mode: forwards;
+}
+
+.lampara::before{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 89%;
+    background-color: #222;
+    position: absolute;
+    right: 50%;
+}
+
+.lampara.n2{
+    left: 20vw;
+    height: 60vh;
+    max-height: 450px;
+}
+
+    .lampara.n2::before{
+        height: 85%;
+    }
+
+@keyframes movLampara{
+    
+    0%{
+        transform: rotate( 0deg);
+    }
+
+    10%{
+        transform: rotate( 0.5deg);
+    }    
+
+    20%{
+        transform: rotate( -0.5deg);
+    }          
+
+    30%{
+        transform: rotate( 0.25deg);
+    }         
+    40%{
+        transform: rotate( -0.25deg);
+    }          
+    50%{
+        transform: rotate( 0deg);
+    }  
+}
+

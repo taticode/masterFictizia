@@ -1,0 +1,234 @@
+
+/*----------------------400 px----------------------*/
+
+
+@media (min-width: 400px){
+    
+    .mainNav ul{
+        padding: 24px;
+    }
+    .homeTitle{
+        font-size: 36px;
+    }
+    
+    
+    .mainNav{
+        max-width: 450px;
+        right: 5vw;
+    }
+    
+    .mainNav li{
+        width: auto;
+    }
+    
+    .mainNav a{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+   
+    .intro figure h1{
+        font-size: 30px;
+    }
+    
+    figure img{
+        max-width: 200px;
+    }
+    
+}
+
+
+/*----------------------600 px----------------------*/
+
+@media (min-width: 600px){
+    
+    .intro .title{
+        font-size: 3rem;
+    }
+
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+    }
+    
+    main.contentWrap{
+        padding-top: 5vw;
+    }
+  
+
+    section{
+        margin-bottom: 5vw;
+    }
+
+    section h1{
+
+        font-size: 1.5rem;
+        line-height: 2rem;
+        height: 2rem;  
+    }
+
+
+    .namesWrap > h1{
+        font-size: 1.5rem;
+    }
+
+    .namesWrap{
+
+
+        clip-path: polygon( 100% 0%,
+                            57% 100%,
+                            0% 100%,
+                            0% 0%);
+        width: 50%;
+        padding: 3vw 0vw 0vw 3vw;
+
+    }  
+
+    .contact .namesWrap{
+        padding: 3vw;
+    }
+    .namesWrap > h1, section li{
+        padding: 5% 9%;
+    }
+
+    
+    main.contentWrap h1{
+        padding-top: 0;
+    }
+    
+    .contentWrap .contact h1{
+        padding: 2% 4%;
+
+    }    
+    .contentWrap .contact li h1{
+        padding: 0;
+
+    }
+    .contact li{
+        padding: 5% 4%;
+    }
+    
+    .productWrap{
+
+        clip-path: polygon( 100% 0%,
+                            100% 100%,
+                            0% 100%,
+                            31% 0%);
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+
+    }
+    .contact .productWrap{
+        width: 100%;
+        position: relative;
+    }
+    .coffee, .drinks, .sweet, .salty{
+        background: none;
+        background-color: rgba(34,34,34,.5);
+    }
+
+    .coffee .namesWrap > h1, .drinks .namesWrap > h1, .sweet .namesWrap > h1, .salty .namesWrap > h1{
+
+        background: none;
+        font-family: 'Fredericka the Great', serif;
+
+    }
+
+
+    .productWrap article{
+        box-sizing: border-box;
+
+    }
+
+}
+
+@media (min-width: 900px){
+    
+    .contact{
+        height: auto;
+    }
+    .contact .namesWrap {
+        width: 60%;
+        min-height: auto;
+    }
+    .contact .productWrap{
+        width: 40%;
+        min-height: auto;
+        
+    }
+    
+    .contact iframe{
+        height: 100%;
+    }
+    .contact li{
+        padding: 30px;
+    }    
+    
+    .contact li:hover{
+        padding: 30px 0px 30px 40px;
+    }
+    .contentWrap .contact li h1{
+        font-size: 18px;
+    }
+    
+}
+
+
+
+
+/*--------------------1199 px----------------------*/
+
+@media (min-width: 1199px){
+    
+    .intro figure h1{
+        font-size: 35px;
+    }
+
+}
+
+
+/*--------------------1500 px----------------------*/
+
+@media (min-width: 1200px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;        
+        align-content: flex-start;
+    }
+
+    .productWrap img{
+
+        width: 110%;
+    }
+
+    .coffee .namesWrap > h1, .drinks .namesWrap > h1, .sweet .namesWrap > h1, .salty .namesWrap > h1{
+        font-size: 1.5rem;
+    }
+    section li{
+        padding: 5% 13%;
+    }
+}
+
+@media (min-width: 1400px){
+    
+    section{
+        max-width: inherit;
+        width: 49%;
+    }
+
+
+/*
+@media (min-width: 1500px){
+    
+}
+
+section li{
+    padding: 2%;
+}
+}
+*/
+
