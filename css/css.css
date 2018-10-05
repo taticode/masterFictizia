@@ -146,10 +146,6 @@ ul h1{
 }
 /*---------------------------------------------------------------*/
 
-.limite{
-    max-width: 1400px;
-    margin: 0 auto;
-}
 
 .mainHeader{
     width: 100%;
@@ -387,13 +383,11 @@ ul h1{
     height: 100vh;
     margin: 0 auto;
     overflow: hidden;
-
-/*
     background-image: url(ui-img/bg/restaurante.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-*/
+
     
 }
 
