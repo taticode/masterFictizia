@@ -2,9 +2,16 @@
 # Proyecto fin de Máster en Diseño de interfaz con HTML5, CSS3 Y JQUERY en Fictizia
 
 
-Este es un proyecto de fin de curso realizado en Madrid, en la escuela de nuevas tecnologías Fictizia después de realizar 150 horas de formación.
+Este es un proyecto de fin de curso realizado en Madrid, en la escuela de nuevas tecnologías [Fictizia](https://www.fictizia.com/) después de realizar 150 horas de formación.
 
-Fue un máster con una metodología teórica y práctica muy completa, donde había que realizar varias prácticas de la teoría que se iba impartiendo.
+Fue un máster con una metodología teórica y práctica muy completa, donde había que realizar varias prácticas de la teoría que se iba impartiendo en clase.
+
+Como muestra de lo aprendido teníamos que realizar este proyecto, en mi caso particular me he centrado en que fuera un proyecto totalmente responsive y cuidando el diseño, los colores y tipografía.
+Poco a poco irá siendo un proyecto más amplio y completo, conforme vaya añadiendo las correcciones que hizo mi profesor.
+Es el primer proyecto personal que publico en internet, y espero que le sigan muchos más.
+
+Quiero agradecer al profesor, [Ángel Corral Arias](https://twitter.com/ancoar) la dedicación en su trabajo, cosas que en su día me costaba mucho aprender o simplemente no me salían, hoy en día se hacen fáciles gracias a él.
+Y gracias a [Fictizia](https://www.fictizia.com/) porque a través de este curso conocí a mis compañeras [Teresa Valdayo](https://twitter.com/_LtTere) y [Karina Heras](https://twitter.com/karinaHerasRosa) con las que comparto una nueva vida profesional (_que seguro nos traerá muchos quebraderos de cabeza con el código jajaja_)  pero también alegrías y un empleo gratificante.
 
 ## Éstas son algunas de las materias y los conocimientos que aprendí:
 
