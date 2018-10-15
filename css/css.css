@@ -624,7 +624,7 @@ main.contentWrap section h1, section a{
 }
 .namesWrap li:hover{
     cursor: pointer;
-    padding-left: 12%;
+    padding-left: 8%;
 }
  
 .namesWrap li a:hover{
@@ -677,7 +677,7 @@ main.contentWrap section h1, section a{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 3% 10%;
+    padding: 3% 5%;
     
 
 }
@@ -715,8 +715,8 @@ main.contentWrap section h1, section a{
 }
 .iconoInfo{
     
-    height: 20px;
-    padding: 0px 26px 0px 0px;
+    height: 30px;
+    padding: 0px 20px 0px 0px;
 }
 
 .contact iframe{
