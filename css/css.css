@@ -589,6 +589,7 @@ main.contentWrap section h1, section a{
 .productWrap img{
     display: block;
     width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     right: 0;
