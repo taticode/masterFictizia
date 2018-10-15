@@ -503,9 +503,7 @@ main.contentWrap section h1, section a{
     display: block;
     width: 100%;
     text-align: center;
-    background-color: #222;
-    color: #eee;
-    font-size: 40px;
+    font-size: 70px;
     line-height: 70px;
     height: 70px;
     box-sizing: border-box;
@@ -513,11 +511,39 @@ main.contentWrap section h1, section a{
     margin-bottom: 20px;
 }
 
-.namesWrap{
 
-background-color: rgba(34,34,34,.7);
+
+
+
+.namesWrap, .productWrap{
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
+
+.namesWrap{
+    width: 50%;
+    background-color: rgba(34,34,34,.7);
+    clip-path: polygon( 100% 0%,
+                        57% 100%,
+                        0% 100%,
+                        0% 0%);
+    }
+.productWrap{
+    clip-path: polygon( 100% 0%,
+                        100% 100%,
+                        0% 100%,
+                        31% 0%);
+    width: 70%;
+    position: absolute;
+    right: 0;
+}
+
 
 .namesWrap > h1{
     display: block;
@@ -526,19 +552,6 @@ background-color: rgba(34,34,34,.7);
     font-family: 'Roboto',sans-serif;
     padding: 5% 10%;
 }
-
-.namesWrap, .productWrap{
-    box-sizing: border-box;
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
 
 .namesWrap a{
     font-family: 'Bilbo', cursive;
@@ -685,11 +698,7 @@ background-color: rgba(34,34,34,.7);
     
 
 }
-.contentWrap .contact h1{
-    font-family: 'Fredericka the Great', serif;
 
-
-}
 .contact li:hover{
     padding: 5% 12%;
     cursor: pointer;
