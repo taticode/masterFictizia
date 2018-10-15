@@ -678,7 +678,7 @@ main.contentWrap section h1, section a{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 5% 10%;
+    padding: 3% 10%;
     
 
 }
