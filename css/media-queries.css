@@ -81,7 +81,6 @@
                             0% 100%,
                             0% 0%);
         width: 50%;
-        padding: 3vw 0vw 0vw 3vw;
 
     }  
 
@@ -90,11 +89,6 @@
     }
     .namesWrap > h1, section li{
         padding: 5% 9%;
-    }
-
-    
-    main.contentWrap h1{
-        padding-top: 0;
     }
     
     .contentWrap .contact h1{
@@ -132,7 +126,6 @@
 
     .coffee .namesWrap > h1, .drinks .namesWrap > h1, .sweet .namesWrap > h1, .salty .namesWrap > h1{
 
-        background: none;
         font-family: 'Fredericka the Great', serif;
 
     }
