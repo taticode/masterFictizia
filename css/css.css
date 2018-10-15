@@ -570,22 +570,6 @@ main.contentWrap section h1, section a{
     background-color: #E88B00;
 }
 
-.coffee{
-    background-image: url(../img/latte.jpg);
-
-}
-.drinks{
-    background-image: url(../img/zumo.jpg);
-}
-
-.sweet{
-    background-image: url(../img/roll.jpg);
-}
-.salty{
-    background-image: url(../img/salty-crepes.jpg);
-
-}
-
 
 /*------------PESTAÑAS PRODUCTO-------------------------------------*/
 
