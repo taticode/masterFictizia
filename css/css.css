@@ -624,7 +624,7 @@ main.contentWrap section h1, section a{
 }
 .namesWrap li:hover{
     cursor: pointer;
-    padding-left: 3vw;
+    padding-left: 12%;
 }
  
 .namesWrap li a:hover{
@@ -683,7 +683,6 @@ main.contentWrap section h1, section a{
 }
 
 .contact li:hover{
-    padding: 5% 12%;
     cursor: pointer;
     background: rgba(255,255,255,.2);
 }
