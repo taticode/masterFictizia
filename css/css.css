@@ -527,7 +527,7 @@ main.contentWrap section h1, section a{
 }
 
 .namesWrap{
-    width: 50%;
+    width: 61%;
     background-color: rgba(34,34,34,.7);
     clip-path: polygon( 100% 0%,
                         57% 100%,
@@ -538,8 +538,8 @@ main.contentWrap section h1, section a{
     clip-path: polygon( 100% 0%,
                         100% 100%,
                         0% 100%,
-                        31% 0%);
-    width: 70%;
+                        42% 0%);
+    width: 63%;
     position: absolute;
     right: 0;
 }
