@@ -669,7 +669,6 @@ main.contentWrap section h1, section a{
 
 .contact{
     width: 100%;    
-    height: 65vh;
     margin-bottom: 0;
 
 }
@@ -709,9 +708,11 @@ main.contentWrap section h1, section a{
 
 }
 .contact .productWrap{
-    min-height: 80vh;
-    clip-path: none;
 
+    clip-path: none;
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
 .iconoInfo{
     
