@@ -324,7 +324,10 @@ ul h1{
     top: 90px;
 
 }
-
+#menuBtn:not:checked ~ .mainNav{
+    height: 0;
+    
+}
 #menuBtn:checked ~ .botonMenu{
     align-content: flex-start;
     
@@ -332,6 +335,7 @@ ul h1{
 #menuBtn:checked ~ .botonMenu div:nth-child(odd){
     display: none;
 }
+
 .desplegar{
     -webkit-transform-origin: 50% 0 0;
     transform-origin: 50% 0 0;
