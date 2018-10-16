@@ -35,6 +35,7 @@
 
 @media (min-width: 600px){
     .mainNav{
+        width: 90%;
         right: 5vw;
     }
     .intro .title{
