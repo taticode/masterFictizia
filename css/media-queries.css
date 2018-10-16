@@ -34,7 +34,9 @@
 /*----------------------600 px----------------------*/
 
 @media (min-width: 600px){
-    
+    .mainNav{
+        right: 5vw;
+    }
     .intro .title{
         font-size: 3rem;
     }
