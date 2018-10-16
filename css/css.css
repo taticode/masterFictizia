@@ -201,7 +201,7 @@ ul h1{
 
 .mainNav{
     box-sizing: border-box;
-    width: 90%;
+    width: 100%;
     max-width: 570px;
     right: 0;
 	z-index: 10;
