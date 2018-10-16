@@ -376,7 +376,6 @@ ul h1{
 
 
 .intro{
-    position: absolute;
     top: 0;
     box-sizing: border-box;
     width: 100%;
@@ -448,7 +447,6 @@ main.contentWrap{
     overflow: hidden;  
     margin: 3vw;
     position: absolute;
-    margin-top: 100vh;
     top: 0; 
     padding-top: 10vw;
 
