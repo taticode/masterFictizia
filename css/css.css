@@ -202,7 +202,7 @@ ul h1{
 .mainNav{
     box-sizing: border-box;
     width: 100%;
-    max-width: 600px;
+    max-width: 570px;
     right: 0;
 	z-index: 10;
     display: flex;
