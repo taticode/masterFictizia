@@ -324,10 +324,7 @@ ul h1{
     top: 90px;
 
 }
-#menuBtn:not:checked ~ .botonMenu{
-    background-color: red;
-    
-}
+
 #menuBtn:checked ~ .botonMenu{
     align-content: flex-start;
     
