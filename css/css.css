@@ -201,13 +201,13 @@ ul h1{
 
 .mainNav{
     box-sizing: border-box;
-    width: 90%;
+    width: 100%;
+    max-width: 600px;
+    right: 0;
 	z-index: 10;
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    top: 0;
-    right: 5%;
     transform: translateY(-100%);
     box-shadow: 15px 15px 30px rgba(0,0,0,.5);
 
@@ -217,14 +217,14 @@ ul h1{
 .mainNav::before, .mainNav::after{
     content: "";
     display: block;
-    height: 15px;
+    height: 20px;
     width: 3px;
     border-radius: 2px;
     border-left: 1px solid #aaa;
     background-color: #888;
     border-right: 2px solid #222;
     position: absolute;
-    top: -6px;
+    top: -9px;
     z-index: 12;
     
 }
