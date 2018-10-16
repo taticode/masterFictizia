@@ -724,6 +724,13 @@ main.contentWrap section h1, section a{
     height: 30vh;
 
 }
+
+footer{
+    width: 100%;
+    height: 5vw;
+    color: #fff;
+    background-color: tomato;
+}
 /*-----------------LAMPARA---------------------------------*/
 
 .lampara{
