@@ -446,13 +446,10 @@ main.contentWrap{
 
     box-sizing: border-box;
     overflow: hidden;  
-    width: 94%;
     margin: 5vw;
     position: absolute;
     margin-top: 100vh;
-    margin-left: -45%;
-    top: 0;
-    left: 48%;  
+    top: 0; 
     padding-top: 10vw;
 
 
