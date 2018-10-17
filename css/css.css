@@ -673,9 +673,7 @@ main.contentWrap section h1, section a{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 3% 5%;
-    
-
+    padding: 5%;
 }
 
 .contact li:hover{
