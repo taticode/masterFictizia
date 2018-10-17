@@ -621,7 +621,7 @@ main.contentWrap section h1, section a{
 }
 .namesWrap li:hover{
     cursor: pointer;
-    padding-left: 15%;
+    padding-left: 6%;
 }
  
 .namesWrap li a:hover{
