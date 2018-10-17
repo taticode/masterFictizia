@@ -112,6 +112,10 @@
         right: 0;
 
     }
+    .productWrap img{
+        width: 110%;
+        height: auto;
+    }
     .contact .productWrap{
         width: 100%;
         position: relative;
@@ -188,11 +192,6 @@
         flex-wrap: wrap;
         justify-content: space-between;        
         align-content: flex-start;
-    }
-
-    .productWrap img{
-
-        width: 110%;
     }
 
     .coffee .namesWrap > h1, .drinks .namesWrap > h1, .sweet .namesWrap > h1, .salty .namesWrap > h1{
