@@ -20,6 +20,7 @@ function iraSeccion() {
 		
 	$("body,html").animate({ scrollTop: scrollTopDestino } , 600) ;
 
+	$("#menuBtn").prop("checked", false);
 }
 
 
