@@ -41,7 +41,9 @@
     .intro .title{
         font-size: 3rem;
     }
-
+    .videoBg{
+        display: block;
+    }
     main{
         display: flex;
         flex-wrap: wrap;
