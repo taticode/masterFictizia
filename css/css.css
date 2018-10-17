@@ -709,6 +709,7 @@ main.contentWrap section h1, section a{
     height: 100%;
     width: 100%;
     position: relative;
+    line-height: 0;
 }
 .iconoInfo{
     
