@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/taticode/masterFictizia#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "6.9.0"
   }
 }
