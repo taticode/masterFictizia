@@ -1,0 +1,22 @@
+{
+  "name": "masterfictizia",
+  "version": "1.0.0",
+  "description": "final project for Fictizia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taticode/masterFictizia.git"
+  },
+  "author": "Tatiana García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taticode/masterFictizia/issues"
+  },
+  "homepage": "https://github.com/taticode/masterFictizia#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
