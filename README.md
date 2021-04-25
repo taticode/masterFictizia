@@ -1,7 +1,7 @@
 
 # Proyecto fin de Máster en Diseño de interfaz con HTML5, CSS3 Y JQUERY en Fictizia
 
-publicado en github pages https://taticode.github.io/masterFictizia/
+publicado en github pages https://taticode.github.io/coffeeshopGanache/
 
 
 Este es un proyecto de fin de curso realizado en Madrid, en la escuela de nuevas tecnologías [Fictizia](https://www.fictizia.com/) después de realizar 150 horas de formación.
